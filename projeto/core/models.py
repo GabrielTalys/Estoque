@@ -2,7 +2,7 @@ from django.db import models
 
 # Significa que ele só vai atualizar a data quando criar alguma coisa
 class TimeStampedModel(models.Model):
-    created = models.DateTimeFieold(
+    created = models.DateTimeField(
         'Criado em',
         auto_now_add=True,
         auto_now =False
